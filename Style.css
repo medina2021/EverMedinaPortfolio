@@ -1,0 +1,45 @@
+:root {
+    Background-color:rgb(216, 216, 216);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+color: black;
+font-family: 'Roboto Slab', serif;
+background-color: rgb(216, 216, 216);
+}
+/* header styles */
+header {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* hero styling */
+.hero{
+    height: 400px;
+    background-image: url("Codepic.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+}
+.hero h2 {
+    font-size: 20px;
+    margin-top: 400px;
+}
+/* My photo */
+.myphoto {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    border: 2px solid black;
+    height: 317px;
+    width: 202px;
+}
