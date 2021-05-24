@@ -14,21 +14,36 @@ background-color: rgb(216, 216, 216);
 /* header styles */
 header {
     padding: 20px;
-    background-color: white;
+    background-color: dimgray;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+ li {
+    display: inline-block;
+ }
+ a{
+     color: black;
+    list-style: none;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
 /* hero styling */
 .hero{
-    height: 400px;
+    /* width: 100%;
+    height: 100px; */
+    height:70%
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url("Codepic.jpg");
     background-size: cover;
+    position: relative;
+    /* background-size: cover;
     background-position: center;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    position: relative;
+    position: relative; */
 }
 .hero h2 {
     font-size: 20px;
@@ -42,4 +57,23 @@ header {
     border: 2px solid black;
     height: 317px;
     width: 202px;
+}
+/* About work contact section */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    width: 90%;
+    align-items: center;
+}
+.header-flex {
+    display: flex;
+    justify-content: left;
+}
+.sectionheader{
+    font-size: 25px;
+    color: black;
+    margin:0 0 0 10px ;
+    width: 50%;
 }
