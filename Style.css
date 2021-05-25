@@ -14,10 +14,13 @@ background-color: rgb(216, 216, 216);
 /* header styles */
 header {
     padding: 20px;
-    background-color: dimgray;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+header h1{
+   margin: 0;
+   color: dimgray;
 }
  li {
     display: inline-block;
@@ -29,31 +32,27 @@ header {
     text-decoration: none;
 }
 /* hero styling */
-.hero{
-    /* width: 100%;
-    height: 100px; */
-    height:70%
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("Codepic.jpg");
-    background-size: cover;
-    position: relative;
-    /* background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    position: relative; */
+.hero {
+ background-image: url("Codepic.jpg");
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-wrap: wrap;
+ position: relative;
+ justify-content: flex-end;
+ color: darkcyan;
+ font-family: 'Roboto Slab', serif;
 }
+
 .hero h2 {
     font-size: 20px;
     margin-top: 400px;
 }
 /* My photo */
 .myphoto {
-    position: absolute;
-    top: 200px;
-    left: 20px;
+    position:absolute;
+    top: 60px;
+    left: 50px;
     border: 2px solid black;
     height: 317px;
     width: 202px;
@@ -64,7 +63,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px;
-    width: 90%;
+    width: 100%;
     align-items: center;
 }
 .header-flex {
@@ -76,4 +75,11 @@ header {
     color: black;
     margin:0 0 0 10px ;
     width: 50%;
+}
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-left: 10px;
+    width: 80%;
 }
