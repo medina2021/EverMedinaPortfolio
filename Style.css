@@ -31,7 +31,7 @@ header h1{
     border-bottom: 2px solid;
     text-decoration: none;
 }
-/* hero styling */
+/* hero */
 .hero {
  background-image: url("Codepic.jpg");
  background-size: cover;
@@ -54,8 +54,9 @@ header h1{
     top: 60px;
     left: 50px;
     border: 2px solid black;
-    height: 317px;
+    width: 50%;
     width: 202px;
+    height: 317px;
 }
 /* About, work, contact section */
 .about{
@@ -74,7 +75,7 @@ header h1{
     font-size: 25px;
     color: black;
     margin:0 0 0 10px ;
-    width: 50%;
+    width: 100%;
 }
 .info{
     flex: 2 20%;
@@ -97,7 +98,7 @@ p{
     text-align: left;
     line height: 2;
     margin-left: 30px;
-    width: 100%;
+    width: 50%;
 }
 
 .workborder{
@@ -128,4 +129,35 @@ p{
     height: 445.67px;
     object-fit: cover;
     border: 2px solid white
+}
+.contactborder{
+    border-right: 4px solid black;
+    height: 150px;
+    flex: 10 1%;
+}
+.contactcontent{
+    flex: 150;
+}
+figcaption{
+    position: absolute;
+    margin left: 5px;
+    margin top: 10px;
+    border:solid 1px black;
+    color: black;
+    font-weight: bold;
+}
+.contactcontent ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    margin-left: 10px;
+}
+/* media screen */
+@media screen and (max-width: 980px) {
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.aboutmetext{
+    width:85%
 }
