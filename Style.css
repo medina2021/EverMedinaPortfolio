@@ -57,7 +57,7 @@ header h1{
     height: 317px;
     width: 202px;
 }
-/* About work contact section */
+/* About, work, contact section */
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -76,10 +76,56 @@ header h1{
     margin:0 0 0 10px ;
     width: 50%;
 }
-.grid-container{
+.info{
+    flex: 2 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.aboutmeborder{
+    border-right: 4px solid black;
+    height: 150px;
+    flex: 2 1%;
+}
+.aboutmetext{
+    flex: 25;
+}
+
+p{
+    color:black;
+    font-size: 15px;
+    text-align: left;
+    line height: 2;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.workborder{
+    border-right: 4px solid black;
+    height: 472px;
+    flex: 1 3%;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    width: 80%;
+    flex: 80%;
+}
+
+.horiseonexercise{
     display: flex;
     justify-content: space-between;
     align-items: left;
     margin-left: 10px;
     width: 80%;
+}
+
+.work-img{
+    width: 266.67px;
+    height: 445.67px;
+    object-fit: cover;
+    border: 2px solid white
 }
