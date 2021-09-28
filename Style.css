@@ -1,11 +1,13 @@
 :root {
     Background-color:rgb(216, 216, 216);
   }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
 color: black;
 font-family: 'Roboto Slab', serif;
@@ -20,7 +22,7 @@ header {
 }
 header h1{
    margin: 0;
-   color: dimgray;
+   color: black;
 }
  li {
     display: inline-block;
