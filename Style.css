@@ -158,11 +158,13 @@ figcaption{
     margin-left: 10px;
 }
 /* media screen */
-/* @media screen and (max-width: 980px) {
-
-    padding-bottom: 10px;
-    justify-content: center;
+@media screen and (max-width: 908px) {
+    header{
+        padding-bottom:10px;
+        justify-content: center;
+    }
+    header h1 {
+        width: 100%;
+        text-align:center;
+    }
 }
-.aboutmetext{
-    width:85%
-} */
