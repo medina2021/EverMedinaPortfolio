@@ -66,8 +66,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px;
-    width: 100%;
+    margin: 40px;
+    width: 90%;
     align-items: center;
 }
 .header-flex {
@@ -119,19 +119,26 @@ p{
     width: 80%;
 }
 
-.horiseonexercise{
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    margin-left: 10px;
-    width: 80%;
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin-left: 50px;
+}
+
+.workpic{
+    position: relative;
+
 }
 
 .work-img{
-    width: 266.67px;
-    height: 445.67px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border: 2px solid white
+    border: 1px solid white;
+}
+.workpic1{
+    grid-column: 1/span 1;
 }
 
 .contactcontent{
